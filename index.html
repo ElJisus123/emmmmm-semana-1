@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Funciones JavaScript</title>
+</head>
+<body>
+    <h1>Funciones JavaScript</h1>
+
+    <div>
+        <h3>Factorial</h3>
+        <input type="number" id="inputFactorial" placeholder="Introduce un número">
+        <button onclick="calculoDeFactorial()">Calcular Factorial</button>
+        <p id="resultadoFactorial"></p>
+    </div>
+
+    <div>
+        <h3>Mostrar el número mayor de un array</h3>
+        <input type="text" id="inputArrayMayor" placeholder="Introduce un array separado por comas">
+        <button onclick="numerosMayores()">Mostrar Mayor</button>
+        <p id="resultadoMayor"></p>
+    </div>
+
+    <div>
+        <h3>Ordenar un array</h3>
+        <input type="text" id="inputArrayOrdenar" placeholder="Introduce un array separado por comas">
+        <button onclick="ordenarUnArray()">Ordenar Array</button>
+        <p id="resultadoOrdenar"></p>
+    </div>
+
+    <div>
+        <h3>Filtrar números mayores con un valor dado</h3>
+        <input type="text" id="inputArrayFiltrar" placeholder="Introduce un array separado por comas">
+        <input type="number" id="valorFiltrar" placeholder="Introduce un valor">
+        <button onclick="numerosSegunValorDado()">Filtrar Números</button>
+        <p id="resultadoFiltrar"></p>
+    </div>
+
+    <div>
+        <h3>Sumar todos los elementos de un array</h3>
+        <input type="text" id="inputArraySumar" placeholder="Introduce un array separado por comas">
+        <button onclick="sumarArrayElementos()">Sumar Elementos</button>
+        <p id="resultadoSumar"></p>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
